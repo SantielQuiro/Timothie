@@ -20,7 +20,6 @@ public class MouseInput : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log("Mouse Position: " + mousePosition + " and " + OnMinigame); 
         mousePosition = deltaMouse.action.ReadValue<Vector2>();
 
         if (OnMinigame)
